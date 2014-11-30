@@ -1,9 +1,8 @@
 ---
 
-
 # Route Matcher
 
-This library will match routes in routable structures consisting of nested routers and routes.
+This library will match routes in *routable* structures consisting of nested routers and routes.
 By extracting this logic out of the routes and routers themselves, we gain more power and flexibility.
 While traversing the routers and routes we can maintain a context stack telling us where we are in the
 structure and how to treat each route and router with respect to its current context, not just on its own

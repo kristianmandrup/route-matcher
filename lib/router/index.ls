@@ -1,3 +1,3 @@
 module.exports =
-  controller:     require './controller'
+  Controller:     require './controller'
   matcher:        require './matcher'
