@@ -1,0 +1,48 @@
+{
+    "name" : "route-matcher",
+    "description" : "Route matcher for nested routers and routes",
+    "keywords" : [
+        "routes",
+        "routing",
+        "router",
+        "matcher"
+    ],
+    "homepage" : "https://github.com/kristianmandrup/route-matcher",
+    "version" : "0.1.0",
+    "author" : {
+        "name" : "Kristian Mandrup",
+        "url" : "http://infomatrix-blog.herokuapp.com"
+    },
+    "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/kristianmandrup/route-matcher"
+    },
+    "main" : "dist/route-matcher.js",
+    "bugs" : {
+        "url" : "https://github.com/kristianmandrup/route-matcher/issues"
+    },
+    "licenses" : [
+        {
+            "type" : "MIT",
+            "url" : "http://www.opensource.org/licenses/mit-license.php"
+        }
+    ],
+    "dependencies" : {
+        "signals" : ">=1.0",
+        "clone" :   "~0.1"
+    },
+    "devDependencies" : {
+        "uglify-js" : "~1.2.3",
+        "jasmine-node" : "~1.4.x",
+        "gulp" : "x",
+        "gulp-webpack": "x",
+        "webpack": "x",
+        "xtend" : "x",
+        "chai" : "x",
+        "LiveScript": "x"
+    },
+    "scripts" : {
+        "pretest" : "node build",
+        "test" : "node node_modules/.bin/jasmine-node test"
+    }
+}
