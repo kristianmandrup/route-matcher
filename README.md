@@ -1,5 +1,7 @@
 ---
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/kristianmandrup/route-matcher.svg)](https://greenkeeper.io/)
+
 # Route Matcher
 
 This library will match routes in *routable* structures consisting of nested routers and routes.
